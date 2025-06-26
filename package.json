@@ -1,0 +1,43 @@
+{
+  "name": "tailwind-wrapper",
+  "version": "1.0.0",
+  "description": "A Tailwind CSS v4 plugin that adds a wrapper that sets the width to a fixed size and centers the content inside it.",
+  "main": "src/wrapper.css",
+  "type": "module",
+  "files": [
+    "src/",
+    "README.md"
+  ],
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "plugin",
+    "css",
+    "utilities",
+    "components",
+    "wrapper"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/wrapper.css",
+      "require": "./src/wrapper.css",
+      "default": "./src/wrapper.css"
+    }
+  },
+  "author": "Ilijaz Mehmedovic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlijazM/tailwind-wrapper.git"
+  },
+  "scripts": {
+    "dev": "npx vite"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
